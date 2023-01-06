@@ -54,12 +54,12 @@ OR <br>
 ```python3 src/train_phone_finder.py ~/find_phone_test_images/xxx.jpg 2``` <br>
 
 where ```xxx``` is the test image number you want to test the image on. Additionally the code also outputs the overall accuracy of the trained model on the provided dataset. Here attached is a sample output of the code testing on a given image in the dataset. 
-
+<pre>
 (bcorp) $ python3 src/find_phone.py ~/find_phone_test_images/20.jpg 2
 0.3438775510204081 0.7663265306122449
 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 130/130 [01:06<00:00,  1.94it/s]
 Accuracy of algorithm on the dataset is : 96.153846%
-
+</pre>
 ## Results
 We were able to achieve an accuracy of 92.30% using LogisticRegression and 96.15% using the Deep Learning Network. Below we attach a comparison of some results obtained using the two methods. <br>
 <pre>             ||Logistic Regression||                         ||Convolutional Network||</pre>
