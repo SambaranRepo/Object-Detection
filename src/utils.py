@@ -43,12 +43,11 @@ def get_phone_coordinates(df, file):
     yc = float(image_row['yc'])
     return xc, yc
 
-def create_labels_table():
+def create_labels_table(folder = 'data/find_phone'):
     '''
     Read labels.txt file and create a pandas dataframe / readable table from it that can be accessed easily
     '''
-    folder = glob('data/find_phone/labels.txt')[0]
-    table = pd.read_table(folder, sep=' ', names = ['image', 'xc', 'yc'])
+    table = pd.read_table(folder + '/labels.txt', sep=' ', names = ['image', 'xc', 'yc'])
     return table
 
 
