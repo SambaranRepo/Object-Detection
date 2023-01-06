@@ -43,14 +43,14 @@ This code is used to train the phone detection algorithm. We provide two differe
 
 The code takes in as arguments the folder where the images and labels.txt file are located, and additionally an argument that takes in the method we want to use. Enter 1 for logistic regression, 2 for deep learning network. <br>
 ```python3 src/train_phone_finder.py ~/find_phone 1``` <br>
-OR 
+OR <br>
 ```python3 src/train_phone_finder.py ~/find_phone 2``` <br>
 
 ### 2. find_phone.py
 This code tests the phone detection model trained using the above code. Again the code takes in as arguments the test images location and additional argument for the model with 1 for logistic regression model and 2 for deep learning network. <br> 
 
 ```python3 src/train_phone_finder.py ~/find_phone_test_images/xxx.jpg 1``` <br>
-OR 
+OR <br>
 ```python3 src/train_phone_finder.py ~/find_phone_test_images/xxx.jpg 2``` <br>
 
 where ```xxx``` is the test image number you want to test the image on. Additionally the code also outputs the overall accuracy of the trained model on the provided dataset. Here attached is a sample output of the code testing on a given image in the dataset. 
@@ -62,6 +62,7 @@ Accuracy of algorithm on the dataset is : 96.153846%
 
 ## Results
 We were able to achieve an accuracy of 92.30% using LogisticRegression and 96.15% using the Deep Learning Network. Below we attach a comparison of some results obtained using the two methods. 
+||Logistic Regression||                 ||Convolutional Network||
 
 <p float="left">
   <img src="results/images_ConvNet/62.jpg" width="49%" />
