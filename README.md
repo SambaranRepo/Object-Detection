@@ -61,7 +61,7 @@ where ```xxx``` is the test image number you want to test the image on. Addition
 Accuracy of algorithm on the dataset is : 96.153846%
 
 ## Results
-We were able to achieve an accuracy of 92.30% using LogisticRegression and 96.15% using the Deep Learning Network. Below we attach a comparison of some results obtained using the two methods. 
+We were able to achieve an accuracy of 92.30% using LogisticRegression and 96.15% using the Deep Learning Network. Below we attach a comparison of some results obtained using the two methods. <br>
 ||Logistic Regression||                 ||Convolutional Network||
 
 <p float="left">
