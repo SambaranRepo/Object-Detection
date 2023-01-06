@@ -62,7 +62,7 @@ Accuracy of algorithm on the dataset is : 96.153846%
 
 ## Results
 We were able to achieve an accuracy of 92.30% using LogisticRegression and 96.15% using the Deep Learning Network. Below we attach a comparison of some results obtained using the two methods. <br>
-||Logistic Regression||                 ||Convolutional Network||
+<pre>||Logistic Regression||                 ||Convolutional Network||</pre>
 
 <p float="left">
   <img src="results/images_ConvNet/62.jpg" width="49%" />
